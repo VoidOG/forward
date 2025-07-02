@@ -9,8 +9,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 BOT_TOKEN = '7533210168:AAFyBBOO__qmXQ_N-48xscei1eIDllNKqn8'
 
 # Your group and channel usernames (with @), or links
-SOURCE_GROUP_USERNAME = '@incognals'     # or use t.me/yourgroup
-DEST_CHANNEL_USERNAME = '@incognali'   # or use t.me/yourchannel
+SOURCE_GROUP_USERNAME = '@acatwithguns'     # or use t.me/yourgroup
+DEST_CHANNEL_USERNAME = '@acatwithgoo'   # or use t.me/yourchannel
 
 def forward_message(update: Update, context: CallbackContext):
     if update.effective_chat.username == SOURCE_GROUP_USERNAME.strip('@'):
